@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      mwhus
+HostName                       subway.it.kth.se
+ProcessIdentifier              7890
+ProcessCreationTime_UTC        1449144462
+ProcessCreationTime_Readable   Thu Dec  3 13:07:42 2015 CET
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /afs/kth.se/home/m/w/mwhus/my_proj/myLib/DC_Setup_NMOS/schematic/sch.oa.cdslck
+TimeEditLocked                 Thu Dec  3 13:36:26 2015 CET

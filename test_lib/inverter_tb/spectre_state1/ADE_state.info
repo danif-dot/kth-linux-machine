@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("test_lib" "inverter_tb" "config" "spectre")
+descriptionText = "None"

@@ -1,0 +1,715 @@
+'(nil version 1.0 bBox ((382 139) (932 727)))
+(unless printInfoDpl
+printInfoDpl = (ncons nil)
+)
+(unless printInfoDpl->expTable
+printInfoDpl->expTable = (ncons nil)
+)
+printInfoDpl->expTable->waves = (let
+(tmp1)
+tmp1 = nil
+list(tmp1)
+)
+printInfoDpl->expTable->origWaves = (let
+(tmp1)
+tmp1 = nil
+list(tmp1)
+)
+printInfoDpl->expTable->expressions = (let
+(tmp1)
+tmp1 = "OP(\"/I0/M1\" \"??\")"
+list(tmp1)
+)
+printInfoDpl->expTable->aliases = (let
+(tmp1)
+tmp1 = "OP(\"/I0/M1\" \"??\")"
+list(tmp1)
+)
+(unless printInfoDpl->optionDpl
+printInfoDpl->optionDpl = (ncons nil)
+)
+printInfoDpl->optionDpl->format = 'suffix
+printInfoDpl->optionDpl->numSigDigits = 4
+printInfoDpl->optionDpl->linLog = "Linear"
+printInfoDpl->optionDpl->from = nil
+printInfoDpl->optionDpl->to = nil
+printInfoDpl->optionDpl->step = nil
+(unless printInfoDpl->printOptions
+printInfoDpl->printOptions = (ncons nil)
+)
+printInfoDpl->printType = "simple wave"
+printInfoDpl->origStrList = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+tmp1 = "signal            OP(\"/I0/M1\" \"??\")"
+tmp2 = "beff                  3.846m        "
+tmp3 = "betaeff               6.836m        "
+tmp4 = "cbb                 370.9f          "
+tmp5 = "cbd                -142.9f          "
+tmp6 = "cbdbi                27.7f          "
+tmp7 = "cbg                 -98.29f         "
+tmp8 = "cbs                -129.7f          "
+tmp9 = "cbsbi               -89.74f         "
+tmp10 = "cdb                -223.3f          "
+tmp11 = "cdd                 184.8f          "
+tmp12 = "cddbi                14.25f         "
+tmp13 = "cdg                -287.4f          "
+tmp14 = "cds                 325.9f          "
+tmp15 = "cgb                 -55.01f         "
+tmp16 = "cgbovl                0             "
+tmp17 = "cgd                 -56.2f          "
+tmp18 = "cgdbi               -16.28f         "
+tmp19 = "cgdovl               39.92f         "
+tmp20 = "cgg                 673.2f          "
+tmp21 = "cggbi               593.3f          "
+tmp22 = "cgs                -562f            "
+tmp23 = "cgsbi              -522f            "
+tmp24 = "cgsovl               39.98f         "
+tmp25 = "cjd                 130.7f          "
+tmp26 = "cjs                   0             "
+tmp27 = "csb                 -92.61f         "
+tmp28 = "csd                  14.25f         "
+tmp29 = "csg                -287.5f          "
+tmp30 = "css                 365.8f          "
+tmp31 = "cssbi               325.9f          "
+tmp32 = "fug                 585.2M          "
+tmp33 = "gbd                   0             "
+tmp34 = "gbs                  -0             "
+tmp35 = "gds                 329.9u          "
+tmp36 = "gm                    2.475m        "
+tmp37 = "gmb                 979.5u          "
+tmp38 = "gmbs                979.5u          "
+tmp39 = "gmoverid              2.475         "
+tmp40 = "i1                   -1m            "
+tmp41 = "i3                    1m            "
+tmp42 = "i4                   74.82a         "
+tmp43 = "ibd                  74.82a         "
+tmp44 = "ibe                 501.4f          "
+tmp45 = "ibs                  -0             "
+tmp46 = "ibulk                74.82a         "
+tmp47 = "id                   -1m            "
+tmp48 = "idb                  74.82a         "
+tmp49 = "ide                  -1m            "
+tmp50 = "ids                  -1m            "
+tmp51 = "igb                   0             "
+tmp52 = "igcd                  0             "
+tmp53 = "igcs                  0             "
+tmp54 = "igd                   0             "
+tmp55 = "ige                   0             "
+tmp56 = "igidl                -0             "
+tmp57 = "igisl                -0             "
+tmp58 = "igs                   0             "
+tmp59 = "is                    1m            "
+tmp60 = "isb                  -0             "
+tmp61 = "ise                  -1m            "
+tmp62 = "isub                 -0             "
+tmp63 = "pwr                 501.3u          "
+tmp64 = "qb                 -622.1f          "
+tmp65 = "qbd                  71.11f         "
+tmp66 = "qbi                 622.1f          "
+tmp67 = "qbs                  -0             "
+tmp68 = "qd                 -226.8f          "
+tmp69 = "qdi                 226.8f          "
+tmp70 = "qg                    1.096p        "
+tmp71 = "qgi                   1.096p        "
+tmp72 = "qinv                  4.379m        "
+tmp73 = "qsi                 246.9f          "
+tmp74 = "qsrco               246.9f          "
+tmp75 = "region                1             "
+tmp76 = "reversed              0             "
+tmp77 = "ron                 501.3           "
+tmp78 = "rout                  3.031K        "
+tmp79 = "self_gain             7.504         "
+tmp80 = "type                  1             "
+tmp81 = "ueff                  6.49m         "
+tmp82 = "vbs                   0             "
+tmp83 = "vdb                -501.3m          "
+tmp84 = "vds                -501.3m          "
+tmp85 = "vdsat              -513.4m          "
+tmp86 = "vdss               -513.4m          "
+tmp87 = "vearly                3.031         "
+tmp88 = "vfbeff                NaN           "
+tmp89 = "vgb                  -1.276         "
+tmp90 = "vgd                -774.8m          "
+tmp91 = "vgs                  -1.276         "
+tmp92 = "vgsteff             571.3m          "
+tmp93 = "vgt                -721.1m          "
+tmp94 = "vsat_marg            12.09m         "
+tmp95 = "vsb                  -0             "
+tmp96 = "vth                -554.9m          "
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+)
+printInfoDpl->title = nil
+printInfoDpl->xCol = nil
+printInfoDpl->width = 14
+printInfoDpl->numSpaces = 4
+printInfoDpl->noMerge = nil
+printInfoDpl->resultsDir = nil
+printInfoDpl->resultName = nil
+printInfoDpl->unitList = (let
+(tmp1 tmp2)
+tmp1 = ""
+tmp2 = ""
+list(tmp1 tmp2)
+)
+printInfoDpl->waveNameList = (let
+(tmp1 tmp2)
+tmp1 = "signal"
+tmp2 = "OP(\"/I0/M1\" \"??\")"
+list(tmp1 tmp2)
+)
+(unless printInfoDpl->context
+printInfoDpl->context = (ncons nil)
+)
+printInfoDpl->context->runObjFile = "runObjFile"
+printInfoDpl->context->netlistDir = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic/netlist"
+printInfoDpl->context->relativeDir = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre"
+printInfoDpl->context->dataDir = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+(unless printInfoDpl->context->cache
+printInfoDpl->context->cache = (ncons nil)
+)
+printInfoDpl->context->cache->OP = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/L0"
+tmp2 = "i"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -3.1684946568690587e-20
+list(tmp1 tmp2)
+)
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/V1"
+tmp2 = "i"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -3.1684946568690587e-20
+list(tmp1 tmp2)
+)
+tmp3 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/E0"
+tmp2 = "i"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 0.0000000000000000e+00
+list(tmp1 tmp2)
+)
+tmp4 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/E0"
+tmp2 = "v"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 1.2760792150906228e+00
+list(tmp1 tmp2)
+)
+tmp5 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/V2"
+tmp2 = "i"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 0.0000000000000000e+00
+list(tmp1 tmp2)
+)
+tmp6 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/C0"
+tmp2 = "i"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp7 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/C3"
+tmp2 = "i"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp8 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/R0"
+tmp2 = "i"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 0.0000000000000000e+00
+list(tmp1 tmp2)
+)
+tmp9 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/R0"
+tmp2 = "pwr"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 0.0000000000000000e+00
+list(tmp1 tmp2)
+)
+tmp10 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/R0"
+tmp2 = "v"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 0.0000000000000000e+00
+list(tmp1 tmp2)
+)
+tmp11 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/I0"
+tmp2 = "v"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -5.0127607921509054e-01
+list(tmp1 tmp2)
+)
+tmp12 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/R1"
+tmp2 = "i"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 0.0000000000000000e+00
+list(tmp1 tmp2)
+)
+tmp13 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/R1"
+tmp2 = "pwr"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 0.0000000000000000e+00
+list(tmp1 tmp2)
+)
+tmp14 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/R1"
+tmp2 = "v"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 0.0000000000000000e+00
+list(tmp1 tmp2)
+)
+tmp15 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/M1"
+tmp2 = "gds"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 3.2989873097042944e-04
+list(tmp1 tmp2)
+)
+tmp16 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/M1"
+tmp2 = "vdsat"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -5.1336948191841447e-01
+list(tmp1 tmp2)
+)
+tmp17 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/M1"
+tmp2 = "vds"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -5.0127607921509054e-01
+list(tmp1 tmp2)
+)
+tmp18 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/M1"
+tmp2 = "gm"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 2.4754774223540686e-03
+list(tmp1 tmp2)
+)
+tmp19 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/M1"
+tmp2 = "vth"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -5.5493497015203808e-01
+list(tmp1 tmp2)
+)
+tmp20 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/M1"
+tmp2 = "cgg"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 6.7320134588908742e-13
+list(tmp1 tmp2)
+)
+tmp21 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/M1"
+tmp2 = "cgd"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -5.6199986037160049e-14
+list(tmp1 tmp2)
+)
+tmp22 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/M1"
+tmp2 = "id"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -1.0000039033107966e-03
+list(tmp1 tmp2)
+)
+tmp23 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/C4"
+tmp2 = "i"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp24 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/C1"
+tmp2 = "i"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp25 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/M1"
+tmp2 = "??"
+tmp3 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = nil
+list(tmp1 tmp2)
+)
+tmp26 = (let
+(tmp1 tmp2)
+tmp1 = 'time
+tmp2 = 1574183167
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26)
+)
+printInfoDpl->context->cache->opPointDevices = (let
+(tmp1 tmp2 tmp3)
+tmp1 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14)
+tmp1 = "I0.C0"
+tmp2 = "I0.C1"
+tmp3 = "I0.C3"
+tmp4 = "I0.C4"
+tmp5 = "I0.E0"
+tmp6 = "I0.I0"
+tmp7 = "I0.L0"
+tmp8 = "I0.M1"
+tmp9 = "I0.R0"
+tmp10 = "I0.R1"
+tmp11 = "I0.V1"
+tmp12 = "I0.V2"
+tmp13 = "I4"
+tmp14 = "IPRB0"
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14)
+)
+tmp2 = 1574183167
+tmp3 = 'OP
+list(tmp1 tmp2 tmp3)
+)
+printInfoDpl->context->cache->VDC = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I0/net017"
+tmp2 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 1.8000000000000000e+00
+list(tmp1 tmp2)
+)
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I0/net013"
+tmp2 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 1.3000000000000000e+00
+list(tmp1 tmp2)
+)
+tmp3 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/gnd!"
+tmp2 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 0.0000000000000000e+00
+list(tmp1 tmp2)
+)
+tmp4 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I0/net018"
+tmp2 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 1.2987239207849095e+00
+list(tmp1 tmp2)
+)
+tmp5 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I0/net012"
+tmp2 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 5.2392078490937732e-01
+list(tmp1 tmp2)
+)
+tmp6 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I0/net06"
+tmp2 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 1.8000000000000000e+00
+list(tmp1 tmp2)
+)
+tmp7 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I0/net015"
+tmp2 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 1.2987239207849095e+00
+list(tmp1 tmp2)
+)
+tmp8 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/net04"
+tmp2 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 0.0000000000000000e+00
+list(tmp1 tmp2)
+)
+tmp9 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I0/net3"
+tmp2 = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 5.2392078490937732e-01
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9)
+)
+(unless printInfoDpl->context->simData
+printInfoDpl->context->simData = (ncons nil)
+)
+printInfoDpl->context->simData->drl = nil
+(unless printInfoDpl->context->simData->instData
+printInfoDpl->context->simData->instData = (ncons nil)
+)
+printInfoDpl->context->simData->instData->dcOp\-dc = nil
+printInfoDpl->context->simData->instData->dcOpInfo\-info = nil
+printInfoDpl->context->simData->instData->modelParameter\-info = nil
+printInfoDpl->context->simData->dataDir = "/afs/kth.se/home/d/a/danilof/simulation/fTp/spectre/schematic"
+printInfoDpl->context->simData->simulator = "spectre"
+printInfoDpl->context->simData->aliasList = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'subckts
+list(tmp1)
+)
+tmp2 = "subckts-info.subckts"
+list(tmp1 tmp2)
+)
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'primitives
+list(tmp1)
+)
+tmp2 = "primitives-info.primitives"
+list(tmp1 tmp2)
+)
+tmp3 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'designParamVals
+list(tmp1)
+)
+tmp2 = "designParamVals-info"
+list(tmp1 tmp2)
+)
+tmp4 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'output
+list(tmp1)
+)
+tmp2 = "outputParameter-info"
+list(tmp1 tmp2)
+)
+tmp5 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'instance
+list(tmp1)
+)
+tmp2 = "element-info"
+list(tmp1 tmp2)
+)
+tmp6 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'model
+list(tmp1)
+)
+tmp2 = "modelParameter-info"
+list(tmp1 tmp2)
+)
+tmp7 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'dcOpInfo
+list(tmp1)
+)
+tmp2 = "dcOpInfo-info"
+list(tmp1 tmp2)
+)
+tmp8 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'dcOp
+list(tmp1)
+)
+tmp2 = "dcOp-dc"
+list(tmp1 tmp2)
+)
+tmp9 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'variables
+list(tmp1)
+)
+tmp2 = "variables"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9)
+)
+printInfoDpl->context->simulator = "spectre"
+printInfoDpl->realExpList = nil
+printInfoDpl->saveLoadFile = "/afs/kth.se/home/d/a/danilof/IL2238/myLib/fTp/ft/printSetup.state"

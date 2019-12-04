@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("myLib" "PMOS_SB_tb" "schematic" "spectre")
+descriptionText = "None"
