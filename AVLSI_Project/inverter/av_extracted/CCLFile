@@ -1,0 +1,40 @@
+#
+# OPTION COMMAND FILE created by Cadence Quantus QRC Extraction Version 14.2.2-s209 from CCL
+#
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "GND"
+device_reduction \
+	 -m_factor infinite
+extract \
+	 -selection "all" \
+	 -type "c_only_decoupled"
+extraction_setup \
+	 -macro_cells_type "default" \
+	 -net_name_space "LAYOUT"
+input_db -type assura \
+	 -design_cell_name "inverter layout AVLSI_Project" \
+	 -directory_name "/afs/kth.se/home/a/r/argyrios/IL2238/LVS_runs" \
+	 -format "DFII" \
+	 -run_name "myRun"
+log_file \
+	 -file_name "/afs/kth.se/home/a/r/argyrios/IL2238/LVS_runs/qrc.myRun.log"
+output_db -type extracted_view \
+	 -cap_component "pcapacitor" \
+	 -cap_property_name "c" \
+	 -enable_cellview_check false \
+	 -include_cap_model "true" \
+	 -include_parasitic_cap_model "comment" \
+	 -include_parasitic_res_model "comment" \
+	 -include_res_model "true" \
+	 -view_name "av_extracted"
+output_setup \
+	 -directory_name "/afs/kth.se/home/a/r/argyrios/IL2238/LVS_runs" \
+	 -temporary_directory_name "myRun"
+process_technology \
+	 -technology_corner \
+		"QRC" \
+	 -technology_library_file "/afs/kth.se/home/a/r/argyrios/IL2238/assura_tech.lib" \
+	 -technology_name "lf150"
+
+
